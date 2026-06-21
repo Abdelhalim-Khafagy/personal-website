@@ -16,8 +16,15 @@
   }
   .top {
     display: flex;
+    gap: 1rem;
     align-items: center;
-    gap: 0.5rem;
+    flex: 1;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .bottom {
+    flex: 1;
   }
 
   .name {
